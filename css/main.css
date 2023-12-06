@@ -170,3 +170,60 @@ footer span {
 	color: #45610E;
 	font-size: .8em;
 }
+@media all and (min-width: 768px) {
+    .bottom-section .content-wrapper {
+		
+		justify-content: space-evenly;
+	}
+	
+	
+
+	.section-one {
+		width: 33%;
+		border-left: 5px solid #EEE;
+	}
+	
+	.section-two {
+		width: 33%;
+		
+	}
+	
+	.section-three {
+		width: 30%;
+		border-right: 5px solid #EEE;
+	}
+	
+}
+@media all and (min-width: 1200px) {
+    body {
+		font-size: 1em;
+
+	}
+	
+	header .content-wrapper {
+		justify-content: center;
+		align-items: center;
+		padding: 30px 0 30px 0;
+	}
+	header h1 {
+		width: 50%;
+  		padding: 0 30;
+  		border-bottom: none;
+  		text-align: center;
+	}
+	header nav {
+		width: 21%;
+	}
+	header nav ul {
+		display: flex;
+		
+	justify-content: space-between;
+	}
+	.section-three {
+		
+		border-right: none;
+	}
+	.section-one {
+		
+			border-left: none;}
+}
